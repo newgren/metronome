@@ -35,25 +35,25 @@ body {
     text-align: center;
 }
 
-#tempo {
+#tempo, #measureLength {
     font-size: 40px;
 }
 
-.bpm {
+.bpm, .measureLength {
     font-size: 12px;
     text-align: center;
 }
 
-.tempo-controls {
+.tempo-controls, .measureLength-controls {
     margin-top: 30px;
-
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     flex-flow: row;
 }
 
-.tempo-container {
+.tempo-container, .measureLength-container {
     margin: 0 15px;
 }
 
